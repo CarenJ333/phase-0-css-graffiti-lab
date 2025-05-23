@@ -1,1 +1,43 @@
 /* write your override styles here */
+/* Cleanup graffiti styles from all tags */
+.tag-1,
+#tag-2,
+#tag-3,
+#tag-4,
+#tag-5,
+#tag-6,
+#tag-7 {
+  all: unset;
+  background: none !important;
+  color: inherit !important;
+  border: none !important;
+  box-shadow: none !important;
+  text-shadow: none !important;
+  transform: none !important;
+  font-style: normal !important;
+  font-weight: normal !important;
+  font-size: inherit !important;
+  position: static !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  display: block !important;
+  opacity: 1 !important;
+  z-index: auto !important;
+  visibility: visible !important;
+}
+
+/* Neutralize the slick and wicked classes */
+.slick,
+.wicked {
+  all: unset;
+  background: none !important;
+  color: inherit !important;
+  font-style: normal !important;
+  font-weight: normal !important;
+  text-transform: none !important;
+  text-decoration: none !important;
+  border: none !important;
+  box-shadow: none !important;
+  transform: none !important;
+}
+
